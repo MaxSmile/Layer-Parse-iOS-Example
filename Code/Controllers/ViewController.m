@@ -31,8 +31,7 @@
 
 @implementation ViewController
 
-- (void)viewDidAppear:(BOOL)animated
-{
+- (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
     if (![PFUser currentUser]) { // No user logged in
@@ -148,8 +147,7 @@
 
 #pragma mark - Layer Authentication Methods
 
-- (void)loginLayer
-{
+- (void)loginLayer {
     [SVProgressHUD show];
         
     // Connect to Layer
